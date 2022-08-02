@@ -1,0 +1,19 @@
+name: Homes
+version: '${project.version}'
+main: ditto.home.Main
+api-version: 1.16
+authors: [ WhyDitto ]
+description: A homes plugin
+commands:
+  setHome:
+    description: Allows you to set a home
+    usage: /<command>
+  homeList:
+    description: List the homes you have
+    usage: /<command>
+  home:
+    description: warps you
+    usage: /<command>
+  deletehome:
+    description: Deletes home
+    usage: /<command>
